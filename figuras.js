@@ -48,8 +48,11 @@ function areaCirculo(radio) {
 
 function calcPTriangulo(input) {
     const inputLado1 = document.getElementById(inputTriangulo1);
+    const inputLado2 = document.getElementById(inputTriangulo2);
+    const inputLado3 = document.getElementById(inputTriangulo3);
+    const resPTri = document.getElementById(resPTri);
     const lado1 = parseInt(inputLado1.value);
-    console.log(lado1);
-}
+    const lado2 = parseInt(inputLado2.value);
+    const lado3 = parseInt(inputLado3.value);
 
-resPTri
+}

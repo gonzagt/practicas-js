@@ -1,4 +1,16 @@
-/* Header, background y general */
+/*/// Fonts Importadas ///*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+/* font-family: 'Encode Sans SC', sans-serif; */
+
+/* ____________________________________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________________________________ */
+/* ____________________________________________________________________________________________________________________________________ */
+
+/*/// Header, background y general ///*/
 
 body {
     background-color: rgba(14, 235, 62, 0.616);
@@ -7,9 +19,24 @@ body {
 header {
     display: flex;
     justify-content: center;
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
-/* Estilizando Inputs del Triángulo */
+h3 {
+    width: 25%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Encode Sans SC', sans-serif;
+    border-bottom: solid ivory;
+}
+
+text {
+    font-family: 'Roboto', sans-serif;
+}
+/* ____________________________________________________________________________________________________________________________________ */
+
+/*/// Estilizando Inputs del Triángulo ///*/
 
 #inputTriangulo3 {
     width: 70px; 
@@ -25,7 +52,9 @@ header {
     margin-bottom: 5px;
 }
 
-/* Estilizando botones */
+/* ____________________________________________________________________________________________________________________________________ */
+
+/*/// Estilizando botones ///*/
 
 button {
     margin-top: 10px;
