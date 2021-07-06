@@ -41,3 +41,15 @@ function perimetroCirculo(radio) {
 function areaCirculo(radio) {
     return (radio * radio) * PI;
 }
+
+//////// Interactuando con HTML ////////
+
+//////// Triángulo ////////
+
+function calcPTriangulo(input) {
+    const inputLado1 = document.getElementById(inputTriangulo1);
+    const lado1 = parseInt(inputLado1.value);
+    console.log(lado1);
+}
+
+resPTri

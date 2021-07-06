@@ -1,0 +1,32 @@
+/* Header, background y general */
+
+body {
+    background-color: rgba(14, 235, 62, 0.616);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilizando Inputs del Triángulo */
+
+#inputTriangulo3 {
+    width: 70px; 
+    margin-bottom: 5px;
+}
+#inputTriangulo1 {
+    width: 70px; 
+    margin-bottom: 5px;
+}
+
+#inputTriangulo2 {
+    width: 70px; 
+    margin-bottom: 5px;
+}
+
+/* Estilizando botones */
+
+button {
+    margin-top: 10px;
+}
