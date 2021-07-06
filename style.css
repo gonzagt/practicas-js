@@ -12,6 +12,10 @@
 
 /*/// Header, background y general ///*/
 
+:root {
+    --fuente: 'Roboto', sans-serif;
+}
+
 body {
     background-color: rgba(14, 235, 62, 0.616);
 }
@@ -19,43 +23,48 @@ body {
 header {
     display: flex;
     justify-content: center;
-    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Encode Sans SC', sans-serif !important;
 }
 
 h3 {
-    width: 25%;
+    width: 35%;
     padding-bottom: 10px;
     display: flex;
     justify-content: flex-end;
-    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Encode Sans SC', sans-serif !important;
     border-bottom: solid ivory;
 }
 
-text {
-    font-family: 'Roboto', sans-serif;
+p {
+    font-family: var(--fuente);
+    margin: 15px 0px 0px 0px;
 }
+
+text {
+    font-family: var(--fuente);
+}
+
+form {
+    width: 90%;
+    display: grid;
+}
+
+button {
+    width: 20%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
 /* ____________________________________________________________________________________________________________________________________ */
 
 /*/// Estilizando Inputs del Triángulo ///*/
 
-#inputTriangulo3 {
+input {
     width: 70px; 
     margin-bottom: 5px;
-}
-#inputTriangulo1 {
-    width: 70px; 
-    margin-bottom: 5px;
-}
-
-#inputTriangulo2 {
-    width: 70px; 
-    margin-bottom: 5px;
+    outline: none;
 }
 
 /* ____________________________________________________________________________________________________________________________________ */
 
-/*/// Estilizando botones ///*/
-
-button {
-    margin-top: 10px;
-}

@@ -46,13 +46,24 @@ function areaCirculo(radio) {
 
 //////// Triángulo ////////
 
-function calcPTriangulo(input) {
-    const inputLado1 = document.getElementById(inputTriangulo1);
-    const inputLado2 = document.getElementById(inputTriangulo2);
-    const inputLado3 = document.getElementById(inputTriangulo3);
-    const resPTri = document.getElementById(resPTri);
-    const lado1 = parseInt(inputLado1.value);
-    const lado2 = parseInt(inputLado2.value);
-    const lado3 = parseInt(inputLado3.value);
+function calcPTriangulo() {
+    const input3 = document.getElementById("inputTriangulo3");
+    const i3 = parseInt(input3.value);
+    const input1 = document.getElementById("inputTriangulo1");
+    const i1 = parseInt(input1.value);
+    const input2 = document.getElementById("inputTriangulo2");
+    const i2 = parseInt(input2.value);
+    const resPTri = document.getElementById("resPTri");
+        
+    function writeResult() {
+        const perimetro = i3+i2+i1;
+        resPTri.innerHTML = perimetro + " cm.";
+    };
+    
+    writeResult(); 
+};
 
-}
+function calcATriangulo() {
+    d = document.getElementById("resATri");
+    d.innerHTML = "Pendiente xd";
+};

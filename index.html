@@ -20,15 +20,15 @@
             <br>
             <text>El segundo lado del triángulo es de <input id="inputTriangulo2" type="number" placeholder="Número" /> cm.</text>
             <br>
-            <button type="button" onclick="calcPTriangulo()">Calcular perímetro del triángulo</button><text id="resPTri">asd</text>
+            <button id="perTri" onclick= "calcPTriangulo();" type="button">Calcular perímetro del triángulo</button><p id="resPTri"></p>
             <br>
-            <button type="button" onclick="calcATriangulo()">Calcular superficie del triángulo</button><text id="resATri"></text>
+            <button type="button" onclick="calcATriangulo();">Calcular superficie del triángulo</button><text id="resATri"></text>
         </form>
     </section>
     <section>
         <form>
             <h3>Calcular perímetro y superficie del cuadrado:</h3>
-            <text>El lado del cuadrado es de <input id="inputCuadrado" type="number" placeholder="Número" style="width: 70px;"/> cm.</text>
+            <text>El lado del cuadrado es de <input id="inputCuadrado" type="number" placeholder="Número" /> cm.</text>
             <br>
             <button type="button" onclick="calcPCuadrado()">Calcular perímetro del cuadrado</button><text id="resPCuad"></text>
             <br>
@@ -38,7 +38,7 @@
     <section>
         <form>
             <h3>Calcular circunferencia y superficie del círculo:</h3>
-            <text>El radio del círculo es de <input id="inputCirculo" type="number" placeholder="Número" style="width: 70px;" /> cm.</text>
+            <text>El radio del círculo es de <input id="inputCirculo" type="number" placeholder="Número" /> cm.</text>
             <br>
             <button type="button" onclick="calcPCirculo()">Calcular perímetro del círculo</button><text
             id="resPCuad"></text>
@@ -50,3 +50,4 @@
     <script src="./figuras.js"></script>
 </body>
 </html>
+  
